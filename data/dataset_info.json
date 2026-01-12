@@ -739,7 +739,7 @@
     },
     "folder": "python"
   },
-  "arabic-books": {
+  "arabic-books_pretrain": {
     "hf_hub_url": "MohamedRashad/arabic-books",
     "columns": {
       "prompt": "text"
@@ -751,6 +751,25 @@
       "prompt": "text"
     }
   },
+  "palestine_pretrain": {
+    "hf_hub_url": "Elfsong/Palestinian_Training",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "egypt_pretrain": {
+    "hf_hub_url": "Elfsong/Egyptian_Training",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "cultura_x_pretrain": {
+    "hf_hub_url": "uonlp/CulturaX",
+    "columns": {
+      "prompt": "text"
+    },
+    "folder": "ar"
+  },
   "morocco_instruct": {
     "hf_hub_url": "Elfsong/Morocco_English_Training",
     "columns": {
@@ -758,23 +777,11 @@
       "response": "output"
     }
   },
-  "palestine_pretrain": {
-    "hf_hub_url": "Elfsong/Palestinian_Training",
-    "columns": {
-      "prompt": "text"
-    }
-  },
   "palestine_instruct": {
     "hf_hub_url": "Elfsong/Palestinian_English_Training",
     "columns": {
       "prompt": "input",
       "response": "output"
-    }
-  },
-  "egypt_pretrain": {
-    "hf_hub_url": "Elfsong/Egyptian_Training",
-    "columns": {
-      "prompt": "text"
     }
   },
   "syria_instruct": {
@@ -795,6 +802,37 @@
     "hf_hub_url": "Elfsong/Multiple_Arabic_English_Training",
     "columns": {
       "prompt": "input",
+      "response": "output"
+    }
+  },
+  "arabic_aya_dataset_instruct": {
+    "hf_hub_url": "2A2I/Arabic_Aya",
+    "columns": {
+      "prompt": "inputs",
+      "response": "targets"
+    },
+    "folder": "CohereForAI-aya_collection-aya_dataset"
+  },
+  "arabic_aya_wiki_split_instruct": {
+    "hf_hub_url": "2A2I/Arabic_Aya",
+    "columns": {
+      "prompt": "inputs",
+      "response": "targets"
+    },
+    "folder": "CohereForAI-aya_collection-translated_wiki_split"
+  },
+  "arabic_aya_wikiqa_instruct": {
+    "hf_hub_url": "2A2I/Arabic_Aya",
+    "columns": {
+      "prompt": "inputs",
+      "response": "targets"
+    },
+    "folder": "CohereForAI-aya_collection-translated_wikiqa"
+  },
+  "cidar_instruct": {
+    "hf_hub_url": "arbml/CIDAR",
+    "columns": {
+      "prompt": "instruction",
       "response": "output"
     }
   }
