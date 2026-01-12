@@ -738,5 +738,58 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "morocco_pretrain": {
+    "hf_hub_url": "Elfsong/Morocco_Training",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "morocco_instruct": {
+    "hf_hub_url": "Elfsong/Morocco_English_Training",
+    "columns": {
+      "prompt": "input",
+      "response": "output"
+    }
+  },
+  "palestine_pretrain": {
+    "hf_hub_url": "Elfsong/Palestinian_Training",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "palestine_instruct": {
+    "hf_hub_url": "Elfsong/Palestinian_English_Training",
+    "columns": {
+      "prompt": "input",
+      "response": "output"
+    }
+  },
+  "egypt_pretrain": {
+    "hf_hub_url": "Elfsong/Egyptian_Training",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "syria_instruct": {
+    "hf_hub_url": "Elfsong/Syria_English_Training",
+    "columns": {
+      "prompt": "input",
+      "response": "output"
+    }
+  },
+  "saudi_instruct": {
+    "hf_hub_url": "Elfsong/Saudi_English_Training",
+    "columns": {
+      "prompt": "input",
+      "response": "output"
+    }
+  },
+  "multiple_instruct": {
+    "hf_hub_url": "Elfsong/Multiple_Arabic_English_Training",
+    "columns": {
+      "prompt": "input",
+      "response": "output"
+    }
   }
 }
