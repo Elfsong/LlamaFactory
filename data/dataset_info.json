@@ -739,6 +739,12 @@
     },
     "folder": "python"
   },
+  "arabic-books": {
+    "hf_hub_url": "MohamedRashad/arabic-books",
+    "columns": {
+      "prompt": "text"
+    }
+  },
   "morocco_pretrain": {
     "hf_hub_url": "Elfsong/Morocco_Training",
     "columns": {
